@@ -1,0 +1,35 @@
+{
+  "name": "rick-and-morty-test",
+  "version": "1.0.0",
+  "author": "Evita Urbanovica",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint:scss": "stylelint 'app/**/*.scss' --syntax scss --fix ; exit 0"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "apollo-boost": "^0.4.9",
+    "chart.js": "^3.2.1",
+    "graphql": "^15.5.0",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "next": "10.0.0",
+    "react": "17.0.0",
+    "react-chartjs-2": "^3.0.3",
+    "react-dom": "17.0.0",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.32.13"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.12.1",
+    "axios": "^0.21.0",
+    "eslint": "^7.26.0",
+    "eslint-plugin-react": "^7.23.2",
+    "prettier": "2.1.2"
+  }
+}

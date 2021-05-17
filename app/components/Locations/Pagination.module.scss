@@ -1,0 +1,35 @@
+@import '../../styles/app';
+
+.paginationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  .paginationItem,
+  .navigationButton {
+    cursor: pointer;
+    background-color: $color-primary;
+    color: #fff;
+    padding: 0.6rem 0.8rem;
+    margin-right: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    &:hover {
+      background-color: $color-secondary;
+    }
+    &.active {
+      background-color: $color-secondary;
+    }
+    &.disabled {
+      opacity: 0.4;
+      pointer-events: none;
+    }
+  }
+  .navigationButton {
+    min-width: 5rem;
+    background-color: $pagination-buttons;
+  }
+}

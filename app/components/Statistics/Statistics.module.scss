@@ -1,0 +1,33 @@
+@import '../../styles/app';
+
+.box {
+  width: 100%;
+  padding: 1rem 2rem;
+  &.residents {
+    background-color: $box-color-1;
+  }
+  &.type {
+    background-color: $box-color-2;
+  }
+  &.dimension {
+    background-color: $box-color-3;
+  }
+  &.alive {
+    background-color: $box-color-4;
+  }
+  &.dead {
+    background-color: $box-color-5;
+  }
+  &.guests {
+    background-color: $box-color-6;
+  }
+  > .statisticsTitle {
+    margin: 0 0 0.3rem 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  > .statisticsValue {
+    margin: 0;
+    font-size: 2rem;
+  }
+}

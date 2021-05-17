@@ -1,0 +1,4 @@
+export const SAVE_LOCATIONS = 'SAVE_LOCATIONS';
+export const SAVE_TYPE = 'SAVE_TYPE';
+export const SAVE_DIMENSION = 'SAVE_DIMENSION';
+export const SAVE_CURR_PAGE = 'SAVE_CURR_PAGE';

@@ -1,0 +1,46 @@
+$color-primary: #98cd4d;
+$color-secondary: #efe24b;
+$color-blue: #70cefb;
+$color-border: #aaabaa;
+
+// Table colors
+$table-row: #43c43c;
+$table-row-2: #e7f7f8;
+$pagination-buttons: #43c43c;
+
+// Statistics
+$box-color-1: #e4a888;
+$box-color-2: #efe24b;
+$box-color-3: #98cd4d;
+$box-color-4: #70cefb;
+$box-color-5: #fbb0ee;
+$box-color-6: #c6c8cc;
+
+$grid-columns: 12;
+$grid-gutter: 1.5em;
+
+$xs-breakpoint: 0;
+$sm-breakpoint: 576px;
+$md-breakpoint: 768px;
+$lg-breakpoint: 992px;
+$xl-breakpoint: 1200px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+);
+
+//container
+$col-sm: 540px; // (max-width: 540px)
+$col-md: 720px; // (max-width: 720px)
+$col-lg: 960px; // (max-width: 960px)
+$col-xl: 1140px; // (max-width: 1140px)
+
+$breakpoints: (
+  sm: $sm-breakpoint,
+  md: $md-breakpoint,
+  lg: $lg-breakpoint,
+  xl: $xl-breakpoint,
+);

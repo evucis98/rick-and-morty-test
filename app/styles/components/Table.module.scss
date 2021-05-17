@@ -1,0 +1,43 @@
+@import '../../styles/app';
+
+.tableContainer {
+  overflow-x: auto;
+  border-radius: 15px;
+  > .table {
+    width: 100%;
+    .tableHead {
+      background-color: $table-row;
+      color: #fff;
+      > th {
+        padding: 0.5rem;
+        .rick > div {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        > .searchInput {
+          border-radius: 0.3rem;
+          box-shadow: none;
+          border: 1px solid $color-border;
+          padding: 0.3rem;
+          margin-top: 0.4rem;
+        }
+      }
+    }
+    .tableRow {
+      background-color: $table-row-2;
+      > td {
+        padding: 0.5rem;
+      }
+    }
+    .actionBtn {
+      background-color: $color-blue;
+      color: #fff;
+      font-weight: bold;
+      text-align: center;
+      padding: 0.2rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}
